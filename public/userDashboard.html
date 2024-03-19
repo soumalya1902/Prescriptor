@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Basic -->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Mobile Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <!-- Site Metas -->
+    <title>Prescriptor</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/logo.png" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="css/pogo-slider.min.css" />
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css" />
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+    <!-- Start header -->
+    <header class="top-header">
+      <nav class="navbar header-nav navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            ><img src="images/logo_name_resized.png" alt="image"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbar-wd"
+            aria-controls="navbar-wd"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbar-wd"
+          >
+            <ul class="navbar-nav">
+              <li><a class="nav-link active" href="index.html">Logout</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End header -->
+
+    <!-- Write your code here -->
+    <!-- <div class="container">
+        <div class="row" style="background-image: url(images/slider-02.jpg);">
+            <div class="col-lg-12" style="height: 590px;">
+                <h1>Welcome to dashboard</h1>
+                <a href="prescription.html" class="btn">New prescription</a>
+                <a href="records.html" class="btn">View records</a>
+            </div>
+        </div>
+    </div> -->
+    <div id="about" class="">
+      <div class="about-a1">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="title-box">
+                <h2>Dashboard</h2>
+                <p>
+                  Please enter the following information to be displayed on the
+                  Medical Prescription.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="doctorInfo">
+            <p>Enter Doctor's Name</p>
+            <input
+              class="speechConverted col-md-12"
+              type="text"
+              id="docname"
+              name="fname"
+              value="Dr. Kunal Sarkar  M.B.B.S, MS(Cardiology)"
+            />
+            <br />
+            <br />
+            <p>Enter Doctor's Name</p>
+            <input
+              class="speechConverted col-md-12"
+              type="text"
+              id="docid"
+              name="fname"
+              value="WB-480715"
+            />
+            <br />
+            <br />
+            <p>Enter Hospital/Clinic Name</p>
+            <input
+              class="speechConverted col-md-12"
+              type="text"
+              id="docHosname"
+              name="fname"
+              value="Medica Superspeciality Hospital, Kolkata."
+            />
+            <br />
+            <br />
+            <p>Enter Hospital/Clinic Address</p>
+            <textarea id="docaddress" rows="5" cols="100" style="width: 100%;">
+    127, Eastern Metropolitan Bypass, Nitai Nagar, Mukundapur, Kolkata, West Bengal 700099
+</textarea
+            >
+            <br />
+            <br />
+            <p>Enter Hospital/Clinic Contact Number</p>
+            <input
+              class="speechConverted col-md-12"
+              type="text"
+              id="docnumber"
+              name="fname"
+              value="033 6652 0000"
+            />
+            <br />
+            <br />
+            <button
+              type="submit"
+              id="saveDashboard"
+              class="cusbtn"
+              onclick="saveData()"
+            >
+              Save
+            </button>
+            <br />
+            <br />
+            <h3>Scroll below for help!!</h3>
+            <br />
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+              <div class="row align-items-center about-main-info">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <h2>Welcome to Prescriptor</h2>
+                  <p>
+                    Here provide the basic information about yourself
+                  </p>
+                  <button
+                    type="submit"
+                    id="helpPage"
+                    class="new-btn-d br-2 cusbtn"
+                    href="createPrescription.html"
+                  >
+                    Need Help !
+                  </button>
+                  <!-- <a href="#" class="new-btn-d br-2">Read More</a> -->
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <div class="about-m">
+                    <ul id="banner">
+                      <li>
+                        <img src="images/about-img-01.jpg" alt="" />
+                      </li>
+                      <li>
+                        <img src="images/about-img-02.jpg" alt="" />
+                      </li>
+                      <li>
+                        <img src="images/about-img-03.jpg" alt="" />
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#" id="scroll-to-top" class="new-btn-d br-2"
+      ><i class="fa fa-angle-up"></i
+    ></a>
+
+    <!-- ALL JS FILES -->
+    <script src="./userDashboard.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.pogo-slider.min.js"></script>
+    <script src="js/slider-index.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/images-loded.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>

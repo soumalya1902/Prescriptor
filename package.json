@@ -1,0 +1,31 @@
+{
+  "name": "apicall",
+  "version": "1.0.0",
+  "description": "test mofule",
+  "engines": {
+    "node": "10.16.0"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "saket_gulhane (github: th-10)",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^4.7.0",
+    "body-parser": "^1.19.0",
+    "browser": "^0.2.6",
+    "dialogflow": "^1.1.1",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "fs-extra": "^9.0.0",
+    "handlebars": "^4.7.3",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "puppeteer": "^2.1.1",
+    "uuid": "^3.4.0",
+    "yargs": "^15.1.0"
+  },
+  "devDependencies": {}
+}

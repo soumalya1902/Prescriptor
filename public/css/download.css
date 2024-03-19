@@ -1,0 +1,56 @@
+html,
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+hr.new {
+  border: 1px solid #037a35;
+}
+
+.center12 {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  border: 1px solid black;
+  padding: 60px;
+}
+
+hr.add {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 1px;
+  border-top: 1px solid black;
+}
+
+.column {
+  padding: 10px;
+  height: auto; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 65%;
+  float: left;
+}
+
+.right {
+  width: 35%;
+  float: right;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 15px;
+}
